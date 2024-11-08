@@ -1,0 +1,33 @@
+body {
+    background-color: #ADC2D8;
+}
+
+* {
+    text-align: center;
+    /*selector universal*/
+}
+
+h1 {
+    /*selector por elemento*/
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+    background-color: darkred;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+button {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}

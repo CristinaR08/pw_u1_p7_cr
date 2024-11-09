@@ -18,7 +18,6 @@ h2 {
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 button {
@@ -27,3 +26,37 @@ button {
     font-size: 20px;
     border-radius: 10px;
 }
+
+.titulos {
+    color: green;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#id_pie_pagina_uce {
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #121237;
+}
+
+/* img[src="../img/jinx.png"]{
+    width: 150px;
+    height: 150px;
+} */
+
+img[src*=".png"]{
+    width: 150px;
+    height: 150px;
+}
+
+input[type="text"]{
+    background-color: rgb(140, 200, 242);
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+}
+

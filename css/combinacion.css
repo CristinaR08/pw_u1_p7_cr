@@ -1,0 +1,6 @@
+/* Combinacion de selectores */
+
+h1,h3,h5{
+    color: rgb(255, 255, 255);
+    background-color: rgb(48, 34, 113);
+}

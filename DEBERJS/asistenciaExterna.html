@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Externa</title>
+    <link rel="stylesheet" href="../css/asis.css">
+    <script src="../js/externo.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1
+            style="text-align: center; background-color:  rgb(13, 13, 120); color: white; padding: 10px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            Registro de asistencia</h1>
+        <h2
+            style="box-shadow: 5px 5px 10px rgba(202, 6, 6, 0.5); padding: 10px; border-radius: 20px; text-align: center; max-width: 700px; margin: 0 auto;">
+            Por favor, ingrese sus datos</h2>
+    </header>
+    <nav>
+        <h5>&#191;Desea Continuar&#63;</h5>
+        <button id="aceptar" onclick="permiso('aceptar','chartreuse')">Aceptar</button>
+        <button id="rechazar" onclick="permiso('rechazar','red')">Rechazar</button>
+    </nav>
+    <section>
+        <br>
+        <label id="nombre" for="nom">Nombre: </label>
+        <input id="nom" type="text">
+        <br><br>
+        <label id="apellido" for="apell">Apellido: </label>
+        <input id="apell" type="text">
+        <br><br>
+        <label id="edad" for="age">Edad: </label>
+        <input id="age" type="number">
+        <br><br>
+        <button id="registro" onclick="registro('registro'); agregarImagen('im', 'block'); desaparecer('nombre', 'apellido', 'edad')">Registrarse</button>
+        <br><br>
+        <img id="im" src="../img/profile.png" alt="perfil1" style="width: 100px; display: none; margin-left: 50px;">
+    </section>
+    <footer>
+    </footer>
+</body>
+
+</html>

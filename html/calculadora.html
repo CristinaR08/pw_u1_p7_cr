@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav>
+        <ul id="menu">
+            <li>Calculadora</li>
+            <li>Numero 1</li>
+            <li>Numero 2</li>
+            <li>Numero 3</li>
+        </ul>
+    </nav>
+    <section>
+        <label id="label1" for="num1">N&#250;mero 1</label>
+        <input id="num1" type="number">
+        <label id="label2" for="num2">N&#250;mero 2</label>
+        <input id="num2" type="number">
+        <br>
+        <button onclick="document.getElementById('label1').style.color='red'">Cambiar Color</button>
+        <button onclick="document.getElementById('label1').style.fontSize='40px'">Cambiar Tama&#241;o</button>
+        <button onclick="document.getElementById('label1').innerText='Nuevo Valor'">Cambiar Texto</button>
+        <button onclick="document.getElementById('menu').innerHTML = document.getElementById('menu').innerHTML+'<li>Calculadora 4</li>'">Agregar Elemento</button>
+    </section>
+    <footer>
+    </footer>
+</body>
+
+</html>

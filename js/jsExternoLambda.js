@@ -114,7 +114,7 @@ const conceptosJS = () => {
     }
 
     //Arreglo de objetos
-
+    console.log("Arreglo de objetos")
     const est1 = {
         nombre: "Cristina",
         apellido: "Rivera",

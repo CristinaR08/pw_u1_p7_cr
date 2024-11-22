@@ -17,12 +17,12 @@
                 <div id="idDisplay" class="display">
                    0
                 </div>
-                <button id="borrar">C</button>
+                <button onclick="borrar()" id="borrar">C</button>
                 <button id="recorrer">&larr;</button>
-                <button onclick="evaluarOperacion('%')" id="porce">%</button>
+                <button onclick="evaluarOperacion('/')" id="div">%</button>
                 <button onclick="recibirValor(7)">7</button>
                 <button onclick="recibirValor(8)">8</button>
-                <button onclick="recibirValor(6)">9</button>
+                <button onclick="recibirValor(9)">9</button>
                 <button onclick="evaluarOperacion('X')" id="multi">X</button>
                 <button onclick="recibirValor(4)">4</button>
                 <button onclick="recibirValor(5)">5</button>
@@ -33,8 +33,8 @@
                 <button onclick="recibirValor(3)">3</button>
                 <button onclick="evaluarOperacion('+')" id="suma">+</button>
                 <button onclick="recibirValor(0)" id="num0">0</button>
-                <button id="decimal">.</button>
-                <button id="igual">=</button>
+                <button onclick="recibirValor()" id="decimal">.</button>
+                <button onclick="igual()" id="igual">=</button>
             </div>
         </div>
     </section>

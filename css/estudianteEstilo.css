@@ -54,3 +54,22 @@ form{
     width: 300px;
     height: 425px;
 }
+
+button{
+    background: #e6e6e6;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    color: #490524;
+    font-size: 15px;
+    font-weight: bold;
+    border: outset;
+    box-shadow: 5px 5px 5px 1px #c40a5e;
+    cursor: pointer;
+}
+
+.boton-guardar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
